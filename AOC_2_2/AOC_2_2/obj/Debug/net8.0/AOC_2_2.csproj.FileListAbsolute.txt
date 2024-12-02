@@ -1,0 +1,14 @@
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\bin\Debug\net8.0\AOC_2_2.exe
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\bin\Debug\net8.0\AOC_2_2.deps.json
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\bin\Debug\net8.0\AOC_2_2.runtimeconfig.json
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\bin\Debug\net8.0\AOC_2_2.dll
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\bin\Debug\net8.0\AOC_2_2.pdb
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.AssemblyInfoInputs.cache
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.AssemblyInfo.cs
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.csproj.CoreCompileInputs.cache
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.dll
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\refint\AOC_2_2.dll
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.pdb
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\AOC_2_2.genruntimeconfig.cache
+C:\Users\paola\advent_of_code\AOC_2_2\AOC_2_2\obj\Debug\net8.0\ref\AOC_2_2.dll
