@@ -36,4 +36,3 @@ int multiply(int a, int b) { return a * b; }
 
 main();
 
-//so we can check for the indexes of the don't and do... then we can basically split the strings between a do and a dont and only apply the regex on those right? -> snip them out of the string
