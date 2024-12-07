@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        string filePath = @"C:\Users\paola\advent_of_code\AOC_7_1\AOC_7_1\AOC_7_1.txt";
+        string filePath = @"C:\Users\paola\advent_of_code\AOC_7_2\AOC_7_2\AOC_7_2.txt";
 
         var file = File.ReadAllLines(filePath).Select(x => x.Split(':'));
         var input = new HashSet<(Int64 result, List<Int64> numbers)>();
@@ -13,16 +13,18 @@
         }
 
         int rowCount = input.Count;
-        
+
         bool ValidateEquation(Int64 result, List<Int64> numbers)
         {
             Int64 multiplyResult = multiply(numbers[0], numbers[1]);
             Int64 addResult = add(numbers[0], numbers[1]);
+            Int64 concatResult = concat(numbers[0], numbers[1]);
 
             if (numbers.Count == 2)
             {
                 if (result == multiplyResult ||
-                    result == addResult)
+                    result == addResult ||
+                    result == concatResult)
                 {
                     return true;
                 }
@@ -38,13 +40,16 @@
             var addNumbers = new List<Int64>(numbers.GetRange(1, numbers.Count - 1));
             addNumbers[0] = addResult;
 
-            if (ValidateEquation(result, multiplyNumbers) || ValidateEquation(result, addNumbers))
+            var concatNumbers = new List<Int64>(numbers.GetRange(1, numbers.Count - 1));
+            concatNumbers[0] = concatResult;
+
+            if (ValidateEquation(result, multiplyNumbers) || ValidateEquation(result, addNumbers) || ValidateEquation(result, concatNumbers))
             {
                 return true;
             }
             return false;
         }
-        
+
         Int64 multiply(Int64 x, Int64 y)
         {
             return x * y;
@@ -55,9 +60,14 @@
             return x + y;
         }
 
+        Int64 concat(Int64 x, Int64 y)
+        {
+            return Int64.Parse(x.ToString() + y.ToString());
+        }
+
         Int64 sum = 0;
 
-        foreach (var row in input) 
+        foreach (var row in input)
         {
             if (ValidateEquation(row.result, row.numbers))
             {
